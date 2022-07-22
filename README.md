@@ -39,6 +39,12 @@ https://documenter.getpostman.com/view/20656388/UzXKVdhL
 ## Main Page
 ![Homepage](https://user-images.githubusercontent.com/84731647/180520027-87d84b12-14c2-4cd8-819b-dc38630f64f4.png)
 
+## Login Page
+![Login Page](https://user-images.githubusercontent.com/84731647/180520341-31dfa955-3201-4233-905f-8aeeca3dc294.png)
+
+## Main Page
+
+## WeaponPage
 # TechStack Used
 ## Frontend
 
