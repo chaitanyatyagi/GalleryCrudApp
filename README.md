@@ -11,28 +11,28 @@ User can also perform CRUD operations (Create Read Update Delete).
 
 ## You can perform various operations like :
 ### CRUD OPERATIONS
-Get Details of all weapons (GET REQUEST)
-Get Details of one particular weapon (GET REQUEST)
-Update Details of selected weapon (PATCH REQUEST)
-Delete selected weapon from database (DELETE REQUEST)
-Add new weapon along with it's details (POST REQUEST)
+*Get Details of all weapons (GET REQUEST)
+*Get Details of one particular weapon (GET REQUEST)
+*Update Details of selected weapon (PATCH REQUEST)
+*Delete selected weapon from database (DELETE REQUEST)
+*Add new weapon along with it's details (POST REQUEST)
 ### SPECIAL ENDPOINTS
-Pagination - Only 2 photos are limited per page (GET REQUEST)
-Search by name (POST REQUEST)
+*Pagination - Only 2 photos are limited per page (GET REQUEST)
+*Search by name (POST REQUEST)
 ### AUTHENTICATION
-Signup and Login (POST REQUEST)
+*Signup and Login (POST REQUEST)
 
 ## API LINK
 https://documenter.getpostman.com/view/20656388/UzXKVdhL
 
 # TechStack Used
 ## Frontend
-React.js - Functional Components , Hooks like useState useEffect useRefs, Routing
-Styling - Css
-Javascript
+*React.js - Functional Components , Hooks like useState useEffect useRefs, Routing
+*Styling - Css
+*Javascript
 ## Backend
-Express Framework
-MongoDB Database
+*Express Framework
+*MongoDB Database
 
 # Hosted Website
 ### Hosted Platforms - HEROKU AND VERCEL
