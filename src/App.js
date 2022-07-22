@@ -13,7 +13,7 @@ function App() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get("https://server-nine-eosin.vercel.ap/images/all").then((res) => {
+    axios.get("http://127.0.0.1:4000/images/all").then((res) => {
       setData(res.data.imgs);
     });
   }, []);

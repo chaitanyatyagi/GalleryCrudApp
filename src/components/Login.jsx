@@ -9,7 +9,7 @@ function Login() {
 
     const Auth = () => {
         const payload = { name, email, password }
-        axios.post("https://server-nine-eosin.vercel.ap/users/login", payload).then((res) => {
+        axios.post("http://127.0.0.1:4000/users/login", payload).then((res) => {
             console.log(res)
             if (res.data.status === "success") {
                 window.open("/", "_self")
