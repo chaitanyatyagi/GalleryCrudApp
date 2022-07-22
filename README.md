@@ -3,9 +3,9 @@
 This project is a gallery website which consists of about almost all the weapons images and it's description used during the time of India's biggest war i.e. Mahabharat. This is an open source kind of an project where user has the access to add weapon if it is related to mahabharat's time. This website's frontend portion is made up of React.js Framework and it's backend is made up of Express Framework and MongoDB database.
 
 # Features
-1.User can upload images of weapons which were part of mahabharat's time along side with their title and description. ...
-2.User can search for a picture and details of weapon by it's name.
-3.User can also perform CRUD operations (Create Read Update Delete).
+####User can upload images of weapons which were part of mahabharat's time along side with their title and description. ...
+####User can search for a picture and details of weapon by it's name.
+####User can also perform CRUD operations (Create Read Update Delete).
 
 # API
 
