@@ -1,0 +1,85 @@
+.pic{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fee2f8;
+    background-image: linear-gradient(315deg, #fee2f8 0%, #dcf8ef 74%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.picins{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+.leftins{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rightins{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.picture{
+    width: 80%;
+    height: 70%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+}
+.h{
+    width: 22%;
+    height: 100%;
+    font-size: 1.5rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.d{
+    width: 78%;
+    height: 100%;
+    height: 100%;
+    font-size: 100%;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.data{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.editor{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.delete{
+    border: 2px solid black;
+}

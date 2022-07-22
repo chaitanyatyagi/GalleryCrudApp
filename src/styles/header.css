@@ -1,0 +1,124 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: transparent;
+}
+.gallery{
+    font-size: larger;
+    width:20%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: xx-large;
+    cursor: pointer;
+}
+.blank{
+    width:20%;
+    height:100%;
+}
+.search{
+    font-size: larger;
+    font-weight: xx-large;
+    width: 40%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.searchins{
+    width: 50%;
+    height: 50%;
+}
+.logintext{
+    font-size: larger;
+    width: 10%;
+    height:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    font-weight: xx-large;
+}
+.signtext{
+    font-size: larger;
+    width: 10%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: xx-large;
+}
+
+@media (min-width:500px) and (max-width:800px){
+    .logintext{
+        font-size: medium;
+        width: 15%;
+    }
+    .signtext{
+        font-size: medium;
+        width: 15%;
+    }
+    .search{
+        font-size: 0.8rem;
+        width: 40%;
+    }
+    .gallery{
+        font-size: medium;
+    }
+    .blank{
+        width: 10%;
+    }
+}
+@media (min-width:250px) and (max-width:500px){
+    .logintext{
+        font-size: small;
+        width: 18%;
+    }
+    .signtext{
+        font-size: small;
+        width: 18%;
+    }
+    .search{
+        font-size: 0.7rem;
+        width: 40%;
+        justify-content: center;
+    }
+    .gallery{
+        font-size: small;
+    }
+    .blank{
+        width: 4%;
+    }
+}
+@media (min-width:200px) and (max-width:250px){
+    .logintext{
+        font-size: 0.7rem;
+        width: 20%;
+        justify-content: center;
+    }
+    .signtext{
+        font-size: 0.7rem;
+        width: 20%;
+    }
+    .search{
+        font-size: 0.7rem;
+        width: 40%;
+        justify-content: center;
+    }
+    .gallery{
+        font-size: 0.7rem;
+    }
+    .blank{
+        width: 0%;
+    }
+}
