@@ -9,7 +9,7 @@ function Login() {
 
     const Auth = () => {
         const payload = { name, email, password }
-        axios.post("http://127.0.0.1:4000/users/login", payload).then((res) => {
+        axios.post("https://gallerycrudapp2.herokuapp.com/users/login", payload).then((res) => {
             console.log(res)
             if (res.data.status === "success") {
                 window.open("/", "_self")

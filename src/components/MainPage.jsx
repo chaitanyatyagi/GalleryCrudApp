@@ -13,14 +13,14 @@ function MainPage(props) {
     const [data, setData] = useState([])
     const length = useRef(0)
     useEffect(() => {
-        axios.get("http://127.0.0.1:4000/images/length").then((res) => {
+        axios.get("https://gallerycrudapp2.herokuapp.com/images/length").then((res) => {
             length.current = res.data.length
         })
     }, [])
 
     useEffect(() => {
         const Pagination = () => {
-            axios.get("http://127.0.0.1:4000/images?page=1").then((res) => {
+            axios.get("https://gallerycrudapp2.herokuapp.com/images?page=1").then((res) => {
                 setData(res.data.data.images)
             }).catch(err => {
                 window.alert("No more images available !!")
@@ -31,7 +31,7 @@ function MainPage(props) {
     }, [])
 
     var pagination = async (page) => {
-        const res = await axios.get(`http://127.0.0.1:4000/images?page=${page}`)
+        const res = await axios.get(`https://gallerycrudapp2.herokuapp.com/images?page=${page}`)
         return res.data.data.images
     };
     const handlePageClick = async (val) => {

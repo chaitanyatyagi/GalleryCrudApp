@@ -11,7 +11,7 @@ function Header() {
 
   const promise = async () => {
     let payload = { imgName }
-    const res = await axios.post("http://127.0.0.1:4000/images/search", payload)
+    const res = await axios.post("https://gallerycrudapp2.herokuapp.com/images/search", payload)
     return res.data.data.searchedImage
   }
   const search = async () => {
@@ -20,7 +20,7 @@ function Header() {
   }
 
   const logout = () => {
-    axios.get("http://127.0.0.1:4000/users/logout")
+    axios.get("https://gallerycrudapp2.herokuapp.com/users/logout")
   }
 
   return (

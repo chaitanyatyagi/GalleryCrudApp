@@ -14,8 +14,7 @@ function Form() {
   const Edited = async () => {
     let payload = { imgName, imgURL, Deity, usedBy, imgDescription }
     console.log(payload)
-    // await axios.post("http://127.0.0.1:4000/images/new-image", payload).then((res) => {
-    await axios.post("http://127.0.0.1:4000/images/new-image", payload).then((res) => {
+    await axios.post("https://gallerycrudapp2.herokuapp.com/images/new-image", payload).then((res) => {
       window.alert("Image added")
     }).catch((err) => {
       window.alert("Insufficient details ! Image is not added !")

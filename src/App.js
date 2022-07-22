@@ -13,9 +13,11 @@ function App() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get("http://127.0.0.1:4000/images/all").then((res) => {
-      setData(res.data.imgs);
-    });
+    axios
+      .get("https://gallerycrudapp2.herokuapp.com/images/all")
+      .then((res) => {
+        setData(res.data.imgs);
+      });
   }, []);
 
   return (

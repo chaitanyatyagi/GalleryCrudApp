@@ -6,7 +6,7 @@ function Image(props) {
   const { elmnt } = props
 
   const Delete = () => {
-    axios.delete(`http://127.0.0.1:4000/images/${elmnt._id}/delete`).then((res) => {
+    axios.delete(`https://gallerycrudapp2.herokuapp.com/images/${elmnt._id}/delete`).then((res) => {
       window.alert("Image has been successfully deleted !!")
       window.open("/", "_self")
     })
