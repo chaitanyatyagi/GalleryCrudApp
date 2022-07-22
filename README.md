@@ -35,6 +35,10 @@ Signup and Login (POST REQUEST)
 ## API LINK
 https://documenter.getpostman.com/view/20656388/UzXKVdhL
 
+# Screenshots
+## Main Page
+![Homepage](https://user-images.githubusercontent.com/84731647/180520027-87d84b12-14c2-4cd8-819b-dc38630f64f4.png)
+
 # TechStack Used
 ## Frontend
 
