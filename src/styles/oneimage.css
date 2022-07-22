@@ -5,6 +5,10 @@
     border: 5px solid black;
     background-repeat: no-repeat;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
 }
 
 .oneimage:hover{
@@ -30,6 +34,7 @@
         width: 350px;
         height: 250px;
         background-size: 350px 250px;
+        font-size: 1.7rem;
     }
 }
 @media (min-width:300px) and (max-width:440px){
@@ -37,6 +42,7 @@
         width: 250px;
         height: 200px;
         background-size: 300px 200px;
+        font-size: 1.2rem;
     }
 }
 @media (min-width:200px) and (max-width:300px){
