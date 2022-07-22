@@ -6,7 +6,7 @@ function OneImage(props) {
     return (
         <div className='oneimage' style={{ backgroundImage: `url(${img.imgURL})` }} onClick={() => {
             window.open(`/${img.slug}`, "_self")
-        }}></div>
+        }}>Details</div>
     )
 }
 
