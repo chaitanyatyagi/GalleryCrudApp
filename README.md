@@ -65,6 +65,6 @@ MongoDB Database
 # Hosted Website
 ### Hosted Platforms - HEROKU AND VERCEL
 ### LINK :
-https://vercel.com/chaitanyatyagi/gallery-crud-app
+[https://vercel.com/chaitanyatyagi/gallery-crud-app](https://gallery-crud-app.vercel.app/)
 
 
