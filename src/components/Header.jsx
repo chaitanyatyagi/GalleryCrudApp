@@ -11,8 +11,13 @@ function Header() {
 
   const promise = async () => {
     let payload = { imgName }
-    const res = await axios.post("https://gallerycrudapp2.herokuapp.com/images/search", payload)
-    return res.data.data.searchedImage
+    const res = await axios.post("https://gallerycrudapp2.herokuapp.com/images/search", payload).then((res) => {
+      return res.data.data.searchedImage
+    }).catch((err) => {
+      window.alert("No such Image is available !")
+      window.open("/", "_self")
+    })
+
   }
   const search = async () => {
     const res = await promise()
